@@ -1,3 +1,41 @@
+problem ->Another exception was thorwn navvigator operation requested with a context tthat does not included a navigator 
+
+void main() => runApp(MaterialApp(home:MyHomePage() ,));
+ 
+	
+ 
+class MyHomePage extends StatefulWidget {
+  
+  @override
+  _MyHomePageState createState() => _MyHomePageState();
+}
+ 
+class _MyHomePageState extends State<MyHomePage> {
+ 
+ String page = "mm ";
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+       appBar: AppBar(
+
+void main() => runApp(MaterialApp(home:MyHomePage() ,));
+ 
+	
+ 
+class MyHomePage extends StatefulWidget {
+  
+  @override
+  _MyHomePageState createState() => _MyHomePageState();
+}
+ 
+class _MyHomePageState extends State<MyHomePage> {
+ 
+ String page = "mm ";
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+       appBar: AppBar(
+
 # drawer
 
 A new Flutter project.
