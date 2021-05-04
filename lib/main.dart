@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
  
-void main() => runApp(MyHomePage());
+void main() => runApp(MaterialApp(home:MyHomePage() ,));
  
 	
  
@@ -15,7 +15,7 @@ class _MyHomePageState extends State<MyHomePage> {
  String page = "mm ";
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Scaffold(
+    return Scaffold(
        appBar: AppBar(
         
     backgroundColor: Colors.black,
@@ -80,7 +80,7 @@ setState(() {
 ],
     ),
   ),
-    ),
+    
 
 
 
